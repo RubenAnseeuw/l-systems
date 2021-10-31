@@ -7,14 +7,14 @@ with open("test.json") as configFile:
     
 axiom = config["axiom"]
 variablesList = config["variables"]
-
 rules = dict(config["rules"])
-
-print(rules)   
+iters = config["iterations"]
 
 currentString = axiom 
 
-for i in range(5):
+print("0", currentString)
+
+for i in range(iters):
     newList = []
     
     for item in currentString:
