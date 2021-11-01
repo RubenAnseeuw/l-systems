@@ -1,0 +1,15 @@
+{
+    "variables": ["A", "B", "C"],
+    "constants": ["+", "-"],
+    "axiom": "A",
+    "rules": {
+        "A": "B",
+        "B": "a-C",
+        "C": "C+A"
+	},
+	"translations" : {
+        "+": "Angle 25",
+        "-": "angle -25"
+	}
+
+}
